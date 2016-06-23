@@ -1,15 +1,6 @@
 ## Adamite 
 
-Support this project via Gratipay <a href="https://gratipay.com/iwasrobbed/"><img src="http://img.shields.io/gratipay/iwasrobbed.svg"></a>
-
-Adamite was a video social network that I built with Ruby on Rails 3.0.7, HAML, Bootstrap, and jQuery that was released into beta testing February 2012.  Adamite closed down shortly after due to the high costs of server hosting in addition to all of the add-on services such as video transcoding, email, error exception handling, database storage, etc.  Unfortunately, it's very difficult to get investor interest without knowing a friend of a friend, so I wasn't able to afford the rising costs that accompanied the user growth.
-
-The idea of Adamite was to create a place that people could upload their own videos or cross-post YouTube/Vimeo videos into public or private channels that other people could subscribe to.  When you subscribe to other people's channels, all videos from those channels show up in an infinitely-scrolling stream and you can easily re-share, comment, or badge a video.  It was a beautiful website, but video is a difficult and expensive medium so unfortunately it didn't work out.
-
-## Sites built off of Adamite
-
-Have a site you wanna share that is built off of the Adamite code?  Tweet me [https://twitter.com/iwasrobbed](https://twitter.com/iwasrobbed)
-
+The idea of Adamite was  initiated by Brevidy that created theis project from scratch . I found so much interest in it that i want to make it come into live . Adamite its a website that enables people to  create a place that people could upload their own videos or cross-post YouTube/Vimeo videos into public or private channels that other people could subscribe to.  When you subscribe to other people's channels, all videos from those channels show up in an infinitely-scrolling stream and you can easily re-share, comment, or badge a video.  It was a beautiful website, but video is a difficult and expensive medium so unfortunately it didn't work out.
 
 ## Screenshots
 <a style="padding:10px" href="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/3d328b5a642998059a701b946ef44be2-original.png"><img src="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/3d328b5a642998059a701b946ef44be2-original.png" alt="Screenshot" style="width: 200px;"/></a>
@@ -21,15 +12,6 @@ Have a site you wanna share that is built off of the Adamite code?  Tweet me [ht
 <a style="padding:10px" href="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/1d3363cf3242f058b235cedfc0b7ee4b-original.png"><img src="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/1d3363cf3242f058b235cedfc0b7ee4b-original.png" alt="Screenshot" style="width: 200px;"/></a>
 <a style="padding:10px" href="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/2f29bec475fd70582c0edfd8ef0eb810-original.png"><img src="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/2f29bec475fd70582c0edfd8ef0eb810-original.png" alt="Screenshot" style="width: 200px;"/></a>
 
-## Open Sourcing
-I learned a lot about web programming by creating Adamite and instead of it sitting and collecting dust, I wanted to open source it for others to learn from and use bits and pieces in their own projects.  If you want to create your own video social network using Adamite as a starting point, be my guest, but **do not** use the Adamite name, logo, branding, or badges in your website.  Just make sure you give me (Rob Phillips) credit in the About section and I welcome any and all PayPal donations
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8QD95M6JCP73C"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"/></a>
-
-The source code can be used in personal and commercial products for free as long as you give me attribution.  Please also remember that Adamite was only possible by using other open source projects, so be sure to give them any credit that is necessary according to their respective licenses.
-
-## Collaboration
-I would love to see Adamite come back to life one day, even if it's under a different name and owner.  I welcome all collaborators on this project so please feel free to fork and issue pull requests to improve upon Adamite.  Much of it was built while I was teaching myself Ruby / Ruby on Rails so I'm sure there is a lot that could be easily improved upon.  If you show enough interest, I would gladly accept people to start working as full-time collaborators and grant you read-write access to the repo so you can commit directly.
 
 ## 3rd Party Services
 Adamite uses the following 3rd party services:
