@@ -1,0 +1,1217 @@
+
+
+Started GET "/explore" for 127.0.0.1 at 2016-06-23 19:07:47 -0400
+  Processing by VideosController#explore as HTML
+Completed   in 254ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:391:in `authenticate_with_salt'
+  app/helpers/sessions_helper.rb:70:in `user_from_remember_token'
+  app/helpers/sessions_helper.rb:41:in `current_user'
+  app/controllers/application_controller.rb:136:in `ensure_the_user_is_not_deactivated'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2016-06-23 19:07:56 -0400
+
+OAuth::Unauthorized (401 Authorization Required):
+  
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-06-23 19:07:59 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-06-23 19:08:02 -0400
+  Processing by UsersController#signup as HTML
+Completed   in 153ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:391:in `authenticate_with_salt'
+  app/helpers/sessions_helper.rb:70:in `user_from_remember_token'
+  app/helpers/sessions_helper.rb:41:in `current_user'
+  app/controllers/application_controller.rb:136:in `ensure_the_user_is_not_deactivated'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-06-23 19:08:07 -0400
+  Processing by SessionsController#new as HTML
+Completed   in 145ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:391:in `authenticate_with_salt'
+  app/helpers/sessions_helper.rb:70:in `user_from_remember_token'
+  app/helpers/sessions_helper.rb:41:in `current_user'
+  app/controllers/application_controller.rb:136:in `ensure_the_user_is_not_deactivated'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/explore" for 127.0.0.1 at 2016-06-23 19:08:13 -0400
+  Processing by VideosController#explore as HTML
+Completed   in 140ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:391:in `authenticate_with_salt'
+  app/helpers/sessions_helper.rb:70:in `user_from_remember_token'
+  app/helpers/sessions_helper.rb:41:in `current_user'
+  app/controllers/application_controller.rb:136:in `ensure_the_user_is_not_deactivated'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-23 19:08:19 -0400
+  Processing by UsersController#new as HTML
+Completed   in 142ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:391:in `authenticate_with_salt'
+  app/helpers/sessions_helper.rb:70:in `user_from_remember_token'
+  app/helpers/sessions_helper.rb:41:in `current_user'
+  app/controllers/application_controller.rb:136:in `ensure_the_user_is_not_deactivated'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (50.2ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.8ms)
+
+
+Started GET "/aa/stream" for 127.0.0.1 at 2016-06-23 19:08:21 -0400
+  Processing by UsersController#subscriptions_stream as HTML
+  Parameters: {"username"=>"aa"}
+Completed   in 197ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/models/user.rb:391:in `authenticate_with_salt'
+  app/helpers/sessions_helper.rb:70:in `user_from_remember_token'
+  app/helpers/sessions_helper.rb:41:in `current_user'
+  app/controllers/application_controller.rb:136:in `ensure_the_user_is_not_deactivated'
+
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+  [1m[36mSQL (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.4ms)[0m  [1mCREATE TABLE "badges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "video_id" integer, "badge_type" integer, "badge_from" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("badges")
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE INDEX "index_badges_on_badge_from" ON "badges" ("badge_from")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("badges")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_badges_on_badge_from')[0m
+  [1m[35mSQL (1.6ms)[0m  CREATE INDEX "index_badges_on_badge_type" ON "badges" ("badge_type")
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("badges")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_badges_on_badge_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_badges_on_badge_from')[0m
+  [1m[35mSQL (1.4ms)[0m  CREATE INDEX "index_badges_on_created_at" ON "badges" ("created_at")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("badges")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_badges_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_badges_on_badge_type')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_badges_on_badge_from')
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE INDEX "index_badges_on_video_id" ON "badges" ("video_id")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE TABLE "banned_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "reason" text, "created_at" datetime, "updated_at" datetime, "detailed_reason" text) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("banned_users")
+  [1m[36mSQL (1.3ms)[0m  [1mCREATE INDEX "index_banned_users_on_email" ON "banned_users" ("email")[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.6ms)[0m  [1mCREATE TABLE "banner_images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "path" varchar(255), "filename" varchar(255), "active" boolean DEFAULT 't', "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("banner_images")
+  [1m[36mSQL (24.2ms)[0m  [1mCREATE INDEX "index_banner_images_on_active" ON "banner_images" ("active")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (21.5ms)[0m  [1mCREATE TABLE "blockings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "requesting_user" integer, "blocked_user" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m  PRAGMA index_list("blockings")
+  [1m[36mSQL (3.3ms)[0m  [1mCREATE INDEX "index_blockings_on_blocked_user" ON "blockings" ("blocked_user")[0m
+  [1m[35mSQL (0.4ms)[0m  PRAGMA index_list("blockings")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_blockings_on_blocked_user')[0m
+  [1m[35mSQL (5.5ms)[0m  CREATE INDEX "index_blockings_on_requesting_user" ON "blockings" ("requesting_user")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (11.5ms)[0m  CREATE TABLE "channel_requests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "channel_id" integer, "user_id" integer, "token" varchar(255), "ignored" boolean DEFAULT 'f', "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("channel_requests")[0m
+  [1m[35mSQL (1.5ms)[0m  CREATE INDEX "index_channel_requests_on_channel_id" ON "channel_requests" ("channel_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("channel_requests")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channel_requests_on_channel_id')
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE INDEX "index_channel_requests_on_token" ON "channel_requests" ("token")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("channel_requests")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channel_requests_on_token')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channel_requests_on_channel_id')
+  [1m[36mSQL (12.2ms)[0m  [1mCREATE INDEX "index_channel_requests_on_user_id" ON "channel_requests" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (5.9ms)[0m  [1mCREATE TABLE "channels" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "title" varchar(255), "private" boolean DEFAULT 'f', "featured" boolean DEFAULT 'f', "created_at" datetime, "updated_at" datetime, "public_token" varchar(255), "recommended" boolean DEFAULT 'f') [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("channels")
+  [1m[36mSQL (6.5ms)[0m  [1mCREATE INDEX "index_channels_on_created_at_and_updated_at" ON "channels" ("created_at", "updated_at")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("channels")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_channels_on_created_at_and_updated_at')[0m
+  [1m[35mSQL (1.5ms)[0m  CREATE INDEX "index_channels_on_featured" ON "channels" ("featured")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("channels")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_featured')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_created_at_and_updated_at')[0m
+  [1m[35mSQL (2.6ms)[0m  CREATE INDEX "index_channels_on_private" ON "channels" ("private")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("channels")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_private')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_featured')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_created_at_and_updated_at')
+  [1m[36mSQL (4.9ms)[0m  [1mCREATE INDEX "index_channels_on_public_token" ON "channels" ("public_token")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("channels")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_public_token')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_private')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_featured')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_created_at_and_updated_at')
+  [1m[36mSQL (1.8ms)[0m  [1mCREATE INDEX "index_channels_on_recommended" ON "channels" ("recommended")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("channels")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_recommended')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_public_token')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_private')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_featured')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_created_at_and_updated_at')[0m
+  [1m[35mSQL (1.5ms)[0m  CREATE INDEX "index_channels_on_user_id" ON "channels" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (4.8ms)[0m  CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "video_id" integer, "created_at" datetime, "updated_at" datetime, "content" text, "user_id" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("comments")[0m
+  [1m[35mSQL (10.9ms)[0m  CREATE INDEX "index_comments_on_created_at" ON "comments" ("created_at")
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("comments")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_comments_on_created_at')
+  [1m[36mSQL (14.2ms)[0m  [1mCREATE INDEX "index_comments_on_user_id" ON "comments" ("user_id")[0m
+  [1m[35mSQL (0.4ms)[0m  PRAGMA index_list("comments")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_comments_on_user_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_comments_on_created_at')
+  [1m[36mSQL (9.5ms)[0m  [1mCREATE INDEX "index_comments_on_video_id" ON "comments" ("video_id")[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (16.0ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0, "attempts" integer DEFAULT 0, "handler" text, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("delayed_jobs")
+  [1m[36mSQL (8.3ms)[0m  [1mCREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (15.2ms)[0m  [1mCREATE TABLE "flags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "reason" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (17.9ms)[0m  [1mCREATE TABLE "icons" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "css_class" varchar(255), "active" boolean, "created_at" datetime, "updated_at" datetime, "icon_type" varchar(255)) [0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("icons")
+  [1m[36mSQL (2.9ms)[0m  [1mCREATE INDEX "index_icons_on_active" ON "icons" ("active")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE TABLE "invitation_links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "email_asking_for_invite" varchar(255), "invitation_limit" integer, "token" varchar(255), "created_at" datetime, "updated_at" datetime, "has_been_invited" boolean DEFAULT 't', "click_count" integer DEFAULT 0) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("invitation_links")
+  [1m[36mSQL (6.2ms)[0m  [1mCREATE INDEX "index_invitation_links_on_email_asking_for_invite" ON "invitation_links" ("email_asking_for_invite")[0m
+  [1m[35mSQL (0.4ms)[0m  PRAGMA index_list("invitation_links")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_invitation_links_on_email_asking_for_invite')[0m
+  [1m[35mSQL (3.6ms)[0m  CREATE INDEX "index_invitation_links_on_token" ON "invitation_links" ("token")
+  [1m[36mSQL (0.4ms)[0m  [1mPRAGMA index_list("invitation_links")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_invitation_links_on_token')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_invitation_links_on_email_asking_for_invite')[0m
+  [1m[35mSQL (2.3ms)[0m  CREATE INDEX "index_invitation_links_on_user_id" ON "invitation_links" ("user_id")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.1ms)[0m  CREATE TABLE "profiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "interests" text, "favorite_music" text, "favorite_movies" text, "favorite_books" text, "favorite_people" text, "things_i_could_live_without" text, "one_thing_i_would_change_in_the_world" text, "quotes_to_live_by" text, "created_at" datetime, "updated_at" datetime, "favorite_foods" text, "bio" varchar(255), "website" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("profiles")[0m
+  [1m[35mSQL (2.4ms)[0m  CREATE INDEX "index_profiles_on_user_id" ON "profiles" ("user_id")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.4ms)[0m  CREATE TABLE "restricted_usernames" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "inclusive" boolean DEFAULT 'f', "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("restricted_usernames")[0m
+  [1m[35mSQL (2.0ms)[0m  CREATE INDEX "index_restricted_usernames_on_inclusive" ON "restricted_usernames" ("inclusive")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("restricted_usernames")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_restricted_usernames_on_inclusive')
+  [1m[36mSQL (1.8ms)[0m  [1mCREATE INDEX "index_restricted_usernames_on_username" ON "restricted_usernames" ("username")[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.7ms)[0m  [1mCREATE TABLE "settings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime, "user_id" integer, "hide_getting_started" boolean DEFAULT 'f', "send_email_for_new_badges" boolean DEFAULT 't', "send_email_for_new_comments" boolean DEFAULT 't', "send_email_for_replies_to_a_prior_comment" boolean DEFAULT 't', "send_email_for_new_subscriber" boolean DEFAULT 't', "send_email_for_featured_video" boolean DEFAULT 't', "send_email_for_private_channel_request" boolean DEFAULT 't', "send_email_for_encoding_completion" boolean DEFAULT 't') [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("settings")
+  [1m[36mSQL (4.0ms)[0m  [1mCREATE INDEX "index_settings_on_user_id" ON "settings" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE TABLE "social_networks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar(255), "provider" varchar(255), "created_at" datetime, "updated_at" datetime, "token" varchar(255), "user_id" integer, "token_secret" varchar(255)) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("social_networks")
+  [1m[36mSQL (2.6ms)[0m  [1mCREATE INDEX "index_social_networks_on_provider" ON "social_networks" ("provider")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("social_networks")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_social_networks_on_provider')[0m
+  [1m[35mSQL (1.5ms)[0m  CREATE INDEX "index_social_networks_on_token_secret" ON "social_networks" ("token_secret")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("social_networks")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_social_networks_on_token_secret')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_social_networks_on_provider')[0m
+  [1m[35mSQL (1.6ms)[0m  CREATE INDEX "index_social_networks_on_uid" ON "social_networks" ("uid")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("social_networks")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_social_networks_on_uid')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_social_networks_on_token_secret')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_social_networks_on_provider')
+  [1m[36mSQL (2.2ms)[0m  [1mCREATE INDEX "index_social_networks_on_user_id" ON "social_networks" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.7ms)[0m  [1mCREATE TABLE "subscriptions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "subscriber_id" integer, "publisher_id" integer, "created_at" datetime, "updated_at" datetime, "channel_id" integer, "collaborator" boolean DEFAULT 'f') [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("subscriptions")
+  [1m[36mSQL (1.5ms)[0m  [1mCREATE INDEX "index_subscriptions_on_channel_id" ON "subscriptions" ("channel_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("subscriptions")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_subscriptions_on_channel_id')[0m
+  [1m[35mSQL (1.7ms)[0m  CREATE INDEX "index_subscriptions_on_created_at" ON "subscriptions" ("created_at")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("subscriptions")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_subscriptions_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_subscriptions_on_channel_id')[0m
+  [1m[35mSQL (6.2ms)[0m  CREATE INDEX "index_subscriptions_on_publisher_id" ON "subscriptions" ("publisher_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("subscriptions")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_subscriptions_on_publisher_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_subscriptions_on_created_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_subscriptions_on_channel_id')
+  [1m[36mSQL (2.2ms)[0m  [1mCREATE INDEX "index_subscriptions_on_subscriber_id" ON "subscriptions" ("subscriber_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.8ms)[0m  [1mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "video_id" integer, "tag_id" integer, "created_at" datetime, "updated_at" datetime, "video_owner_id" integer) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("taggings")
+  [1m[36mSQL (2.6ms)[0m  [1mCREATE INDEX "index_taggings_on_created_at" ON "taggings" ("created_at")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("taggings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_created_at')[0m
+  [1m[35mSQL (2.2ms)[0m  CREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")
+  [1m[36mSQL (0.4ms)[0m  [1mPRAGMA index_list("taggings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_taggings_on_tag_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_created_at')[0m
+  [1m[35mSQL (1.7ms)[0m  CREATE INDEX "index_taggings_on_video_id" ON "taggings" ("video_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("taggings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_taggings_on_video_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_taggings_on_created_at')
+  [1m[36mSQL (38.7ms)[0m  [1mCREATE INDEX "index_taggings_on_video_owner_id" ON "taggings" ("video_owner_id")[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (13.9ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime, "content" varchar(255)) [0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.8ms)[0m  [1mCREATE TABLE "user_events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_type" integer, "event_object_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime, "event_creator_id" integer, "error_during_render" boolean DEFAULT 'f', "seen_by_user" boolean DEFAULT 'f') [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("user_events")
+  [1m[36mSQL (6.7ms)[0m  [1mCREATE INDEX "index_user_events_on_created_at" ON "user_events" ("created_at")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("user_events")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_created_at')[0m
+  [1m[35mSQL (7.0ms)[0m  CREATE INDEX "index_user_events_on_event_object_id" ON "user_events" ("event_object_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("user_events")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_event_object_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_created_at')[0m
+  [1m[35mSQL (2.0ms)[0m  CREATE INDEX "index_user_events_on_event_type" ON "user_events" ("event_type")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("user_events")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_event_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_event_object_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_created_at')
+  [1m[36mSQL (1.6ms)[0m  [1mCREATE INDEX "index_user_events_on_seen_by_user" ON "user_events" ("seen_by_user")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("user_events")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_seen_by_user')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_event_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_event_object_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_created_at')
+  [1m[36mSQL (6.5ms)[0m  [1mCREATE INDEX "index_user_events_on_user_id" ON "user_events" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password" varchar(255), "salt" varchar(255), "name" varchar(255), "image" varchar(255), "birthday" date, "gender" varchar(255), "created_at" datetime, "updated_at" datetime, "location" varchar(255), "reset_token" varchar(255), "pw_reset_timestamp" datetime, "image_status" varchar(255), "is_deactivated" boolean DEFAULT 'f', "delta" boolean DEFAULT 't' NOT NULL, "username" varchar(255), "banner_image" varchar(255), "banner_image_id" integer DEFAULT 1, "username_changed_at" datetime, "background_image_id" integer DEFAULT 0) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (2.3ms)[0m  [1mCREATE INDEX "index_users_on_created_at" ON "users" ("created_at")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_created_at')[0m
+  [1m[35mSQL (2.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_created_at')[0m
+  [1m[35mSQL (2.1ms)[0m  CREATE INDEX "index_users_on_username" ON "users" ("username")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.4ms)[0m  CREATE TABLE "video_errors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "video_graph_id" integer, "error_status" integer, "created_at" datetime, "updated_at" datetime, "error_message" text, "user_id" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.2ms)[0m  CREATE TABLE "video_flags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "flag_id" integer, "video_id" integer, "flagged_by" integer, "detailed_reason" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("video_flags")[0m
+  [1m[35mSQL (1.7ms)[0m  CREATE INDEX "index_video_flags_on_flag_id" ON "video_flags" ("flag_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("video_flags")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_flags_on_flag_id')
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE INDEX "index_video_flags_on_flagged_by" ON "video_flags" ("flagged_by")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("video_flags")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_flags_on_flagged_by')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_flags_on_flag_id')
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE INDEX "index_video_flags_on_video_id" ON "video_flags" ("video_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.1ms)[0m  [1mCREATE TABLE "video_graphs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "thumbnail_path" varchar(255), "path" varchar(255), "callback_url" varchar(255), "base_filename" varchar(255), "encoding_type" varchar(255) DEFAULT 'enc1', "thumbnail_type" varchar(255) DEFAULT 'thumb1', "status" integer DEFAULT 0, "zencoder_job_id" integer, "remote_host" varchar(255), "remote_video_id" varchar(255), "remote_thumbnail" varchar(255), "delta" boolean DEFAULT 't' NOT NULL, "created_at" datetime, "updated_at" datetime, "submitting_error_count" integer DEFAULT 0, "transcoding_error_count" integer DEFAULT 0, "error_message" text, "user_id" integer, "deleted" boolean DEFAULT 'f') [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("video_graphs")
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE INDEX "index_video_graphs_on_base_filename" ON "video_graphs" ("base_filename")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("video_graphs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_base_filename')[0m
+  [1m[35mSQL (2.7ms)[0m  CREATE INDEX "index_video_graphs_on_deleted" ON "video_graphs" ("deleted")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("video_graphs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_deleted')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_base_filename')[0m
+  [1m[35mSQL (2.1ms)[0m  CREATE INDEX "index_video_graphs_on_remote_host" ON "video_graphs" ("remote_host")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("video_graphs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_remote_host')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_deleted')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_base_filename')
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE INDEX "index_video_graphs_on_remote_video_id" ON "video_graphs" ("remote_video_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("video_graphs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_remote_video_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_remote_host')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_deleted')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_base_filename')
+  [1m[36mSQL (2.3ms)[0m  [1mCREATE INDEX "index_video_graphs_on_status" ON "video_graphs" ("status")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (2.3ms)[0m  [1mCREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "created_at" datetime, "updated_at" datetime, "delta" boolean DEFAULT 't' NOT NULL, "selected_thumbnail" integer DEFAULT 0, "public_token" varchar(255), "send_to_facebook" boolean DEFAULT 'f', "send_to_twitter" boolean DEFAULT 'f', "video_graph_id" integer, "channel_id" integer, "title" varchar(255), "description" text, "featured_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("videos")
+  [1m[36mSQL (2.3ms)[0m  [1mCREATE INDEX "index_videos_on_channel_id" ON "videos" ("channel_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("videos")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_channel_id')[0m
+  [1m[35mSQL (2.3ms)[0m  CREATE INDEX "index_videos_on_created_at" ON "videos" ("created_at")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("videos")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_channel_id')[0m
+  [1m[35mSQL (1.7ms)[0m  CREATE INDEX "index_videos_on_featured_at" ON "videos" ("featured_at")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("videos")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_featured_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_created_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_channel_id')
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE INDEX "index_videos_on_public_token" ON "videos" ("public_token")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("videos")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_public_token')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_featured_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_created_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_channel_id')
+  [1m[36mSQL (5.7ms)[0m  [1mCREATE INDEX "index_videos_on_user_id" ON "videos" ("user_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("videos")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_user_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_public_token')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_featured_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_channel_id')[0m
+  [1m[35mSQL (14.1ms)[0m  CREATE INDEX "index_videos_on_video_graph_id" ON "videos" ("video_graph_id")
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (2.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (13.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130604202246')[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('about', 'f', '2016-06-23 23:08:58.171043', '2016-06-23 23:08:58.171043')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('account', 'f', '2016-06-23 23:08:58.176857', '2016-06-23 23:08:58.176857')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('ad', 'f', '2016-06-23 23:08:58.180809', '2016-06-23 23:08:58.180809')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('admin', 't', '2016-06-23 23:08:58.184604', '2016-06-23 23:08:58.184604')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('administrator', 't', '2016-06-23 23:08:58.189659', '2016-06-23 23:08:58.189659')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('ads', 'f', '2016-06-23 23:08:58.193073', '2016-06-23 23:08:58.193073')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('ajax', 'f', '2016-06-23 23:08:58.197089', '2016-06-23 23:08:58.197089')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('android', 'f', '2016-06-23 23:08:58.200660', '2016-06-23 23:08:58.200660')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('api', 'f', '2016-06-23 23:08:58.204280', '2016-06-23 23:08:58.204280')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('app', 'f', '2016-06-23 23:08:58.208632', '2016-06-23 23:08:58.208632')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('apps', 'f', '2016-06-23 23:08:58.212384', '2016-06-23 23:08:58.212384')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('auth', 'f', '2016-06-23 23:08:58.215871', '2016-06-23 23:08:58.215871')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('authenticate', 'f', '2016-06-23 23:08:58.219561', '2016-06-23 23:08:58.219561')[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('blog', 'f', '2016-06-23 23:08:58.254991', '2016-06-23 23:08:58.254991')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('brands', 'f', '2016-06-23 23:08:58.280890', '2016-06-23 23:08:58.280890')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('brevidy', 't', '2016-06-23 23:08:58.288427', '2016-06-23 23:08:58.288427')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('brevity', 't', '2016-06-23 23:08:58.292927', '2016-06-23 23:08:58.292927')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('business', 'f', '2016-06-23 23:08:58.297311', '2016-06-23 23:08:58.297311')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('businesses', 'f', '2016-06-23 23:08:58.300797', '2016-06-23 23:08:58.300797')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('campaign', 'f', '2016-06-23 23:08:58.304273', '2016-06-23 23:08:58.304273')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('campaigns', 'f', '2016-06-23 23:08:58.308040', '2016-06-23 23:08:58.308040')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('career', 'f', '2016-06-23 23:08:58.317703', '2016-06-23 23:08:58.317703')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('careers', 'f', '2016-06-23 23:08:58.323570', '2016-06-23 23:08:58.323570')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('contact', 'f', '2016-06-23 23:08:58.328840', '2016-06-23 23:08:58.328840')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('contact_us', 'f', '2016-06-23 23:08:58.333283', '2016-06-23 23:08:58.333283')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('contest', 'f', '2016-06-23 23:08:58.337359', '2016-06-23 23:08:58.337359')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('contests', 'f', '2016-06-23 23:08:58.341000', '2016-06-23 23:08:58.341000')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('create', 'f', '2016-06-23 23:08:58.345313', '2016-06-23 23:08:58.345313')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('credit', 'f', '2016-06-23 23:08:58.348953', '2016-06-23 23:08:58.348953')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('credits', 'f', '2016-06-23 23:08:58.352374', '2016-06-23 23:08:58.352374')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('delete', 'f', '2016-06-23 23:08:58.356830', '2016-06-23 23:08:58.356830')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('demo', 'f', '2016-06-23 23:08:58.360160', '2016-06-23 23:08:58.360160')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('design', 'f', '2016-06-23 23:08:58.363436', '2016-06-23 23:08:58.363436')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('developer', 'f', '2016-06-23 23:08:58.366783', '2016-06-23 23:08:58.366783')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('developers', 'f', '2016-06-23 23:08:58.370552', '2016-06-23 23:08:58.370552')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('discover', 'f', '2016-06-23 23:08:58.374829', '2016-06-23 23:08:58.374829')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('discussions', 'f', '2016-06-23 23:08:58.378681', '2016-06-23 23:08:58.378681')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('download', 'f', '2016-06-23 23:08:58.382395', '2016-06-23 23:08:58.382395')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('downloads', 'f', '2016-06-23 23:08:58.386045', '2016-06-23 23:08:58.386045')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('edit', 'f', '2016-06-23 23:08:58.390038', '2016-06-23 23:08:58.390038')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('embed', 'f', '2016-06-23 23:08:58.394286', '2016-06-23 23:08:58.394286')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('engineering', 'f', '2016-06-23 23:08:58.397615', '2016-06-23 23:08:58.397615')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('event', 'f', '2016-06-23 23:08:58.401583', '2016-06-23 23:08:58.401583')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('events', 'f', '2016-06-23 23:08:58.405092', '2016-06-23 23:08:58.405092')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('explore', 'f', '2016-06-23 23:08:58.412354', '2016-06-23 23:08:58.412354')[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('faq', 'f', '2016-06-23 23:08:58.504606', '2016-06-23 23:08:58.504606')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('featured', 'f', '2016-06-23 23:08:58.510061', '2016-06-23 23:08:58.510061')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('feedback', 'f', '2016-06-23 23:08:58.514945', '2016-06-23 23:08:58.514945')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('find', 'f', '2016-06-23 23:08:58.519254', '2016-06-23 23:08:58.519254')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('group', 'f', '2016-06-23 23:08:58.523244', '2016-06-23 23:08:58.523244')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('groups', 'f', '2016-06-23 23:08:58.526866', '2016-06-23 23:08:58.526866')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('help', 'f', '2016-06-23 23:08:58.530180', '2016-06-23 23:08:58.530180')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('hirefireapp', 'f', '2016-06-23 23:08:58.533776', '2016-06-23 23:08:58.533776')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('history', 'f', '2016-06-23 23:08:58.537912', '2016-06-23 23:08:58.537912')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('home', 'f', '2016-06-23 23:08:58.542034', '2016-06-23 23:08:58.542034')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('inbox', 'f', '2016-06-23 23:08:58.545822', '2016-06-23 23:08:58.545822')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('info', 'f', '2016-06-23 23:08:58.549560', '2016-06-23 23:08:58.549560')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('investor', 'f', '2016-06-23 23:08:58.553634', '2016-06-23 23:08:58.553634')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('investors', 'f', '2016-06-23 23:08:58.557393', '2016-06-23 23:08:58.557393')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('investor_relations', 'f', '2016-06-23 23:08:58.561119', '2016-06-23 23:08:58.561119')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('invitation', 'f', '2016-06-23 23:08:58.565000', '2016-06-23 23:08:58.565000')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('invitations', 'f', '2016-06-23 23:08:58.568746', '2016-06-23 23:08:58.568746')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('invite', 'f', '2016-06-23 23:08:58.572602', '2016-06-23 23:08:58.572602')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('ios', 'f', '2016-06-23 23:08:58.576212', '2016-06-23 23:08:58.576212')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('ipad', 'f', '2016-06-23 23:08:58.580444', '2016-06-23 23:08:58.580444')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('iphone', 'f', '2016-06-23 23:08:58.584189', '2016-06-23 23:08:58.584189')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('job', 'f', '2016-06-23 23:08:58.587585', '2016-06-23 23:08:58.587585')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('jobs', 'f', '2016-06-23 23:08:58.592569', '2016-06-23 23:08:58.592569')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('join', 'f', '2016-06-23 23:08:58.596190', '2016-06-23 23:08:58.596190')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('legal', 'f', '2016-06-23 23:08:58.600522', '2016-06-23 23:08:58.600522')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('live', 'f', '2016-06-23 23:08:58.605094', '2016-06-23 23:08:58.605094')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('log_in', 'f', '2016-06-23 23:08:58.608636', '2016-06-23 23:08:58.608636')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('log_out', 'f', '2016-06-23 23:08:58.612764', '2016-06-23 23:08:58.612764')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('login', 'f', '2016-06-23 23:08:58.617015', '2016-06-23 23:08:58.617015')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('logout', 'f', '2016-06-23 23:08:58.620936', '2016-06-23 23:08:58.620936')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('marketing', 'f', '2016-06-23 23:08:58.624778', '2016-06-23 23:08:58.624778')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('message', 'f', '2016-06-23 23:08:58.628763', '2016-06-23 23:08:58.628763')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('messages', 'f', '2016-06-23 23:08:58.633013', '2016-06-23 23:08:58.633013')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('mobile', 'f', '2016-06-23 23:08:58.637073', '2016-06-23 23:08:58.637073')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('music', 'f', '2016-06-23 23:08:58.641033', '2016-06-23 23:08:58.641033')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('new', 'f', '2016-06-23 23:08:58.645346', '2016-06-23 23:08:58.645346')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('notification', 'f', '2016-06-23 23:08:58.649554', '2016-06-23 23:08:58.649554')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('notifications', 'f', '2016-06-23 23:08:58.653631', '2016-06-23 23:08:58.653631')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('oembed', 'f', '2016-06-23 23:08:58.657907', '2016-06-23 23:08:58.657907')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('offer', 'f', '2016-06-23 23:08:58.662684', '2016-06-23 23:08:58.662684')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('offers', 'f', '2016-06-23 23:08:58.667447', '2016-06-23 23:08:58.667447')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('official', 'f', '2016-06-23 23:08:58.671413', '2016-06-23 23:08:58.671413')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('onboarding', 'f', '2016-06-23 23:08:58.674785', '2016-06-23 23:08:58.674785')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('p', 'f', '2016-06-23 23:08:58.679687', '2016-06-23 23:08:58.679687')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('partner', 'f', '2016-06-23 23:08:58.699885', '2016-06-23 23:08:58.699885')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('partners', 'f', '2016-06-23 23:08:58.705477', '2016-06-23 23:08:58.705477')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('password', 'f', '2016-06-23 23:08:58.710502', '2016-06-23 23:08:58.710502')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('payment', 'f', '2016-06-23 23:08:58.714534', '2016-06-23 23:08:58.714534')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('payments', 'f', '2016-06-23 23:08:58.718728', '2016-06-23 23:08:58.718728')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('people', 'f', '2016-06-23 23:08:58.722667', '2016-06-23 23:08:58.722667')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('popular', 'f', '2016-06-23 23:08:58.726313', '2016-06-23 23:08:58.726313')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('preferred', 'f', '2016-06-23 23:08:58.730228', '2016-06-23 23:08:58.730228')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('premier', 'f', '2016-06-23 23:08:58.734361', '2016-06-23 23:08:58.734361')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('premium', 'f', '2016-06-23 23:08:58.737992', '2016-06-23 23:08:58.737992')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('press', 'f', '2016-06-23 23:08:58.742377', '2016-06-23 23:08:58.742377')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('press_center', 'f', '2016-06-23 23:08:58.745700', '2016-06-23 23:08:58.745700')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('privacy', 'f', '2016-06-23 23:08:58.750467', '2016-06-23 23:08:58.750467')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('private', 'f', '2016-06-23 23:08:58.754400', '2016-06-23 23:08:58.754400')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('public', 'f', '2016-06-23 23:08:58.761158', '2016-06-23 23:08:58.761158')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('recent', 'f', '2016-06-23 23:08:58.768119', '2016-06-23 23:08:58.768119')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('recommended', 'f', '2016-06-23 23:08:58.772055', '2016-06-23 23:08:58.772055')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('remove', 'f', '2016-06-23 23:08:58.777012', '2016-06-23 23:08:58.777012')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('rss', 'f', '2016-06-23 23:08:58.780801', '2016-06-23 23:08:58.780801')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('sale', 'f', '2016-06-23 23:08:58.791261', '2016-06-23 23:08:58.791261')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('sales', 'f', '2016-06-23 23:08:58.797376', '2016-06-23 23:08:58.797376')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('search', 'f', '2016-06-23 23:08:58.802335', '2016-06-23 23:08:58.802335')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('secure', 'f', '2016-06-23 23:08:58.807511', '2016-06-23 23:08:58.807511')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('security', 'f', '2016-06-23 23:08:58.811639', '2016-06-23 23:08:58.811639')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('session', 'f', '2016-06-23 23:08:58.855461', '2016-06-23 23:08:58.855461')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('sessions', 'f', '2016-06-23 23:08:58.861293', '2016-06-23 23:08:58.861293')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('setting', 'f', '2016-06-23 23:08:58.866340', '2016-06-23 23:08:58.866340')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('settings', 'f', '2016-06-23 23:08:58.870811', '2016-06-23 23:08:58.870811')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('share', 'f', '2016-06-23 23:08:58.874512', '2016-06-23 23:08:58.874512')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('sign_in', 'f', '2016-06-23 23:08:58.892868', '2016-06-23 23:08:58.892868')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('sign_out', 'f', '2016-06-23 23:08:58.899336', '2016-06-23 23:08:58.899336')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('sign_up', 'f', '2016-06-23 23:08:58.904476', '2016-06-23 23:08:58.904476')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('signin', 'f', '2016-06-23 23:08:58.909009', '2016-06-23 23:08:58.909009')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('signout', 'f', '2016-06-23 23:08:58.913175', '2016-06-23 23:08:58.913175')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('signup', 'f', '2016-06-23 23:08:58.916723', '2016-06-23 23:08:58.916723')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('soulofvideo', 'f', '2016-06-23 23:08:58.921257', '2016-06-23 23:08:58.921257')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('spam', 'f', '2016-06-23 23:08:58.925124', '2016-06-23 23:08:58.925124')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('stream', 'f', '2016-06-23 23:08:58.928636', '2016-06-23 23:08:58.928636')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('subscribe', 'f', '2016-06-23 23:08:58.932503', '2016-06-23 23:08:58.932503')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('subscribers', 'f', '2016-06-23 23:08:58.936425', '2016-06-23 23:08:58.936425')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('subscriptions', 'f', '2016-06-23 23:08:58.940897', '2016-06-23 23:08:58.940897')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('suggested', 'f', '2016-06-23 23:08:58.944884', '2016-06-23 23:08:58.944884')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('tag', 'f', '2016-06-23 23:08:58.949001', '2016-06-23 23:08:58.949001')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('tags', 'f', '2016-06-23 23:08:58.952356', '2016-06-23 23:08:58.952356')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('team', 'f', '2016-06-23 23:08:58.957774', '2016-06-23 23:08:58.957774')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('terms', 'f', '2016-06-23 23:08:58.967208', '2016-06-23 23:08:58.967208')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('theater', 'f', '2016-06-23 23:08:58.973446', '2016-06-23 23:08:58.973446')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('theaters', 'f', '2016-06-23 23:08:58.976927', '2016-06-23 23:08:58.976927')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('theatre', 'f', '2016-06-23 23:08:58.980543', '2016-06-23 23:08:58.980543')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('theatres', 'f', '2016-06-23 23:08:59.058670', '2016-06-23 23:08:59.058670')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('thesoulofvideo', 'f', '2016-06-23 23:08:59.064989', '2016-06-23 23:08:59.064989')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('tools', 'f', '2016-06-23 23:08:59.069908', '2016-06-23 23:08:59.069908')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('tos', 'f', '2016-06-23 23:08:59.074012', '2016-06-23 23:08:59.074012')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('tour', 'f', '2016-06-23 23:08:59.077621', '2016-06-23 23:08:59.077621')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('tv', 'f', '2016-06-23 23:08:59.081486', '2016-06-23 23:08:59.081486')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('update', 'f', '2016-06-23 23:08:59.085241', '2016-06-23 23:08:59.085241')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('upgrade', 'f', '2016-06-23 23:08:59.089659', '2016-06-23 23:08:59.089659')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('user', 'f', '2016-06-23 23:08:59.093744', '2016-06-23 23:08:59.093744')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('users', 'f', '2016-06-23 23:08:59.097641', '2016-06-23 23:08:59.097641')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('video', 'f', '2016-06-23 23:08:59.101485', '2016-06-23 23:08:59.101485')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('videos', 'f', '2016-06-23 23:08:59.105772', '2016-06-23 23:08:59.105772')
+  [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('vlog', 'f', '2016-06-23 23:08:59.110640', '2016-06-23 23:08:59.110640')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('watch', 'f', '2016-06-23 23:08:59.218657', '2016-06-23 23:08:59.218657')
+  [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('welcome', 'f', '2016-06-23 23:08:59.272921', '2016-06-23 23:08:59.272921')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('wiki', 'f', '2016-06-23 23:08:59.299881', '2016-06-23 23:08:59.299881')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('c', 'f', '2016-06-23 23:08:59.305290', '2016-06-23 23:08:59.305290')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('username_availability', 'f', '2016-06-23 23:08:59.310145', '2016-06-23 23:08:59.310145')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "restricted_usernames" ("username", "inclusive", "created_at", "updated_at") VALUES ('rails', 'f', '2016-06-23 23:08:59.315347', '2016-06-23 23:08:59.315347')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Creative', 'badgeCreative', 't', '2016-06-23 23:08:59.380992', '2016-06-23 23:08:59.380992', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Beautiful', 'badgeBeautiful', 't', '2016-06-23 23:08:59.385685', '2016-06-23 23:08:59.385685', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Clever', 'badgeClever', 't', '2016-06-23 23:08:59.389975', '2016-06-23 23:08:59.389975', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Creepy', 'badgeCreepy', 't', '2016-06-23 23:08:59.394411', '2016-06-23 23:08:59.394411', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Cute', 'badgeCute', 't', '2016-06-23 23:08:59.398918', '2016-06-23 23:08:59.398918', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Dislike it', 'badgeDislikeIt', 't', '2016-06-23 23:08:59.403021', '2016-06-23 23:08:59.403021', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Epic', 'badgeEpic', 't', '2016-06-23 23:08:59.407110', '2016-06-23 23:08:59.407110', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Evil', 'badgeEvil', 't', '2016-06-23 23:08:59.411098', '2016-06-23 23:08:59.411098', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Fail', 'badgeFail', 't', '2016-06-23 23:08:59.415205', '2016-06-23 23:08:59.415205', 'badge')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Gifted', 'badgeGifted', 't', '2016-06-23 23:08:59.421034', '2016-06-23 23:08:59.421034', 'badge')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Hilarious', 'badgeHilarious', 't', '2016-06-23 23:08:59.425124', '2016-06-23 23:08:59.425124', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Hot', 'badgeHot', 't', '2016-06-23 23:08:59.430000', '2016-06-23 23:08:59.430000', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Huh?', 'badgeHuh', 't', '2016-06-23 23:08:59.434752', '2016-06-23 23:08:59.434752', 'badge')
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Inspirational', 'badgeInspirational', 't', '2016-06-23 23:08:59.439063', '2016-06-23 23:08:59.439063', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Like it', 'badgeLikeIt', 't', '2016-06-23 23:08:59.443915', '2016-06-23 23:08:59.443915', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Love it', 'badgeLoveIt', 't', '2016-06-23 23:08:59.447906', '2016-06-23 23:08:59.447906', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Naughty', 'badgeNaughty', 't', '2016-06-23 23:08:59.452146', '2016-06-23 23:08:59.452146', 'badge')
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Original', 'badgeOriginal', 't', '2016-06-23 23:08:59.456141', '2016-06-23 23:08:59.456141', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Sad', 'badgeSad', 't', '2016-06-23 23:08:59.459907', '2016-06-23 23:08:59.459907', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Scary', 'badgeScary', 't', '2016-06-23 23:08:59.464463', '2016-06-23 23:08:59.464463', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Trendy', 'badgeTrendy', 't', '2016-06-23 23:08:59.468776', '2016-06-23 23:08:59.468776', 'badge')
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Wise', 'badgeWise', 't', '2016-06-23 23:08:59.489376', '2016-06-23 23:08:59.489376', 'badge')[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Wow...', 'badgeWow', 't', '2016-06-23 23:08:59.497257', '2016-06-23 23:08:59.497257', 'badge')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "icons" ("name", "css_class", "active", "created_at", "updated_at", "icon_type") VALUES ('Yummy', 'badgeYummy', 't', '2016-06-23 23:08:59.502108', '2016-06-23 23:08:59.502108', 'badge')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "flags" ("reason", "created_at", "updated_at") VALUES ('There is something wrong with this video', '2016-06-23 23:08:59.596049', '2016-06-23 23:08:59.596049')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "flags" ("reason", "created_at", "updated_at") VALUES ('This video is inappropriate, offensive, or violates the video guidelines', '2016-06-23 23:08:59.601127', '2016-06-23 23:08:59.601127')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "flags" ("reason", "created_at", "updated_at") VALUES ('This video is spam, misleading, or mass-advertising', '2016-06-23 23:08:59.605057', '2016-06-23 23:08:59.605057')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "flags" ("reason", "created_at", "updated_at") VALUES ('This video infringes my rights or invades my privacy', '2016-06-23 23:08:59.608974', '2016-06-23 23:08:59.608974')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-1.jpg', 't', '2016-06-23 23:08:59.640154', '2016-06-23 23:08:59.640154')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-2.jpg', 't', '2016-06-23 23:08:59.646210', '2016-06-23 23:08:59.646210')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-3.jpg', 't', '2016-06-23 23:08:59.650356', '2016-06-23 23:08:59.650356')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-4.jpg', 't', '2016-06-23 23:08:59.653836', '2016-06-23 23:08:59.653836')[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-5.jpg', 't', '2016-06-23 23:08:59.657963', '2016-06-23 23:08:59.657963')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-6.jpg', 't', '2016-06-23 23:08:59.662043', '2016-06-23 23:08:59.662043')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-7.jpg', 't', '2016-06-23 23:08:59.665011', '2016-06-23 23:08:59.665011')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-8.jpg', 't', '2016-06-23 23:08:59.668507', '2016-06-23 23:08:59.668507')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-9.jpg', 't', '2016-06-23 23:08:59.672015', '2016-06-23 23:08:59.672015')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-10.jpg', 't', '2016-06-23 23:08:59.675442', '2016-06-23 23:08:59.675442')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-11.jpg', 't', '2016-06-23 23:08:59.678778', '2016-06-23 23:08:59.678778')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-12.jpg', 't', '2016-06-23 23:08:59.682056', '2016-06-23 23:08:59.682056')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-13.jpg', 't', '2016-06-23 23:08:59.686088', '2016-06-23 23:08:59.686088')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-14.jpg', 't', '2016-06-23 23:08:59.689896', '2016-06-23 23:08:59.689896')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-15.jpg', 't', '2016-06-23 23:08:59.693431', '2016-06-23 23:08:59.693431')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-16.jpg', 't', '2016-06-23 23:08:59.696995', '2016-06-23 23:08:59.696995')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-17.jpg', 't', '2016-06-23 23:08:59.700885', '2016-06-23 23:08:59.700885')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-18.jpg', 't', '2016-06-23 23:08:59.704090', '2016-06-23 23:08:59.704090')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-19.jpg', 't', '2016-06-23 23:08:59.708001', '2016-06-23 23:08:59.708001')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-20.jpg', 't', '2016-06-23 23:08:59.711836', '2016-06-23 23:08:59.711836')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-21.jpg', 't', '2016-06-23 23:08:59.715270', '2016-06-23 23:08:59.715270')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-22.jpg', 't', '2016-06-23 23:08:59.718796', '2016-06-23 23:08:59.718796')[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-23.jpg', 't', '2016-06-23 23:08:59.722572', '2016-06-23 23:08:59.722572')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-24.jpg', 't', '2016-06-23 23:08:59.726118', '2016-06-23 23:08:59.726118')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-25.jpg', 't', '2016-06-23 23:08:59.730252', '2016-06-23 23:08:59.730252')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-26.jpg', 't', '2016-06-23 23:08:59.734121', '2016-06-23 23:08:59.734121')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-27.jpg', 't', '2016-06-23 23:08:59.737725', '2016-06-23 23:08:59.737725')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-28.jpg', 't', '2016-06-23 23:08:59.741514', '2016-06-23 23:08:59.741514')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-29.jpg', 't', '2016-06-23 23:08:59.744881', '2016-06-23 23:08:59.744881')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "banner_images" ("path", "filename", "active", "created_at", "updated_at") VALUES ('images/banners', 'banner-30.jpg', 't', '2016-06-23 23:08:59.747908', '2016-06-23 23:08:59.747908')[0m
+  [1m[36mSQL (11.2ms)[0m  [1mSELECT COUNT(*) FROM "delayed_jobs" WHERE (handler LIKE '%run_pending_or_failed_video_encodings_without_delay%')[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.3ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" WHERE (handler LIKE '%run_pending_or_failed_video_encodings_without_delay%')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (23.6ms)[0m  INSERT INTO "delayed_jobs" ("priority", "attempts", "handler", "last_error", "run_at", "locked_at", "failed_at", "locked_by", "queue", "created_at", "updated_at") VALUES (50, 0, '--- !ruby/object:Delayed::PerformableMethod
+object: !ruby/class ''VideoGraph''
+method_name: :run_pending_or_failed_video_encodings_without_delay
+args: []
+', NULL, '2016-06-23 23:10:55.762981', NULL, NULL, NULL, NULL, '2016-06-23 23:09:55.772168', '2016-06-23 23:09:55.772168')
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "delayed_jobs" WHERE (handler LIKE '%run_pending_or_failed_video_encodings_without_delay%')[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (5.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateDelayedJobs (20160623230956)
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1mDROP TABLE "delayed_jobs"[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0, "attempts" integer DEFAULT 0, "handler" text, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("delayed_jobs")[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36mSQL (16.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20160623230956')[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("badges")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_badges_on_video_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_badges_on_created_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_badges_on_badge_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_badges_on_badge_from')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("banned_users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_banned_users_on_email')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("banner_images")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_banner_images_on_active')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blockings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blockings_on_requesting_user')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blockings_on_blocked_user')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("channel_requests")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channel_requests_on_user_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channel_requests_on_token')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channel_requests_on_channel_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("channels")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_user_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_recommended')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_public_token')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_private')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_channels_on_featured')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_channels_on_created_at_and_updated_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("comments")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_comments_on_video_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_comments_on_user_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_comments_on_created_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("delayed_jobs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('delayed_jobs_priority')[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("flags")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("icons")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_icons_on_active')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("invitation_links")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_invitation_links_on_user_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_invitation_links_on_token')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_invitation_links_on_email_asking_for_invite')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("profiles")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_profiles_on_user_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("restricted_usernames")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_restricted_usernames_on_username')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_restricted_usernames_on_inclusive')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("settings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_settings_on_user_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("social_networks")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_social_networks_on_user_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_social_networks_on_uid')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_social_networks_on_token_secret')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_social_networks_on_provider')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("subscriptions")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_subscriptions_on_subscriber_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_subscriptions_on_publisher_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_subscriptions_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_subscriptions_on_channel_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("taggings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_video_owner_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_taggings_on_video_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_taggings_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("tags")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("user_events")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_user_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_seen_by_user')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_events_on_event_type')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_events_on_event_object_id')
+  [1m[36mSQL (0.5ms)[0m  [1mPRAGMA index_info('index_user_events_on_created_at')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_username')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_created_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("video_errors")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("video_flags")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_flags_on_video_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_flags_on_flagged_by')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_flags_on_flag_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("video_graphs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_status')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_remote_video_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_remote_host')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_video_graphs_on_deleted')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_video_graphs_on_base_filename')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("videos")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_video_graph_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_user_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_public_token')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_featured_at')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_videos_on_created_at')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_videos_on_channel_id')[0m
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "delayed_jobs" WHERE (handler LIKE '%run_pending_or_failed_video_encodings_without_delay%')[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.2ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" WHERE (handler LIKE '%run_pending_or_failed_video_encodings_without_delay%')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "delayed_jobs" ("priority", "attempts", "handler", "last_error", "run_at", "locked_at", "failed_at", "locked_by", "queue", "created_at", "updated_at") VALUES (50, 0, '--- !ruby/object:Delayed::PerformableMethod
+object: !ruby/class ''VideoGraph''
+method_name: :run_pending_or_failed_video_encodings_without_delay
+args: []
+', NULL, '2016-06-23 23:12:01.612515', NULL, NULL, NULL, NULL, '2016-06-23 23:11:01.663960', '2016-06-23 23:11:01.663960')
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-23 19:11:40 -0400
+  Processing by UsersController#new as HTML
+  [1m[36mUser Load (26.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered shared/_lower_navigation.haml (3.8ms)
+Rendered shared/_extras.html.haml (6.5ms)
+Rendered users/new.html.haml within layouts/signed_out (412.6ms)
+Completed 200 OK in 1478ms (Views: 716.1ms | ActiveRecord: 26.7ms)
+
+
+Started GET "/explore" for 127.0.0.1 at 2016-06-23 19:12:07 -0400
+  Processing by VideosController#explore as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered users/_featured_videos.html.haml (6.5ms)
+Rendered videos/_explore_content_titles.html.haml (4.4ms)
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "channels" ON "channels"."id" = "videos"."channel_id" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "channels"."private" = 'f' AND "video_graphs"."status" = 7
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered shared/_header.html.haml (15.6ms)
+Rendered shared/_lower_navigation.haml (6.1ms)
+Rendered shared/_extras.html.haml (4.4ms)
+Rendered videos/explore.html.haml within layouts/application (190.0ms)
+Completed 200 OK in 680ms (Views: 248.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/explore" for 127.0.0.1 at 2016-06-23 19:12:11 -0400
+  Processing by VideosController#explore as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered users/_featured_videos.html.haml (3.8ms)
+Rendered videos/_explore_content_titles.html.haml (3.5ms)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "channels" ON "channels"."id" = "videos"."channel_id" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "channels"."private" = 'f' AND "video_graphs"."status" = 7[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered shared/_header.html.haml (9.5ms)
+Rendered shared/_lower_navigation.haml (3.8ms)
+Rendered shared/_extras.html.haml (3.1ms)
+Rendered videos/explore.html.haml within layouts/application (128.5ms)
+Completed 200 OK in 377ms (Views: 133.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-06-23 19:12:13 -0400
+  Processing by UsersController#signup as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered users/_signup_form.html.haml (36.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered shared/_lower_navigation.haml (3.4ms)
+Rendered shared/_extras.html.haml (5.7ms)
+Rendered users/signup.html.haml within layouts/signed_out (77.9ms)
+Completed 200 OK in 360ms (Views: 120.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-23 19:12:19 -0400
+  Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered shared/_lower_navigation.haml (5.0ms)
+Rendered shared/_extras.html.haml (3.3ms)
+Rendered users/new.html.haml within layouts/signed_out (26.6ms)
+Completed 200 OK in 199ms (Views: 43.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-06-23 19:12:25 -0400
+  Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered users/_signup_box.html.haml (3.6ms)
+Rendered shared/_lower_navigation.haml (4.1ms)
+Rendered shared/_extras.html.haml (3.3ms)
+Rendered sessions/new.html.haml within layouts/signed_out (139.9ms)
+Completed 200 OK in 313ms (Views: 158.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-06-23 19:12:32 -0400
+  Processing by UsersController#signup as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered users/_signup_form.html.haml (33.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered shared/_lower_navigation.haml (3.5ms)
+Rendered shared/_extras.html.haml (3.0ms)
+Rendered users/signup.html.haml within layouts/signed_out (64.9ms)
+Completed 200 OK in 260ms (Views: 67.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/username_availability?username=aded" for 127.0.0.1 at 2016-06-23 19:12:35 -0400
+  Processing by UsersController#username_availability as 
+  Parameters: {"username"=>"aded"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mSQL (22.5ms)[0m  SELECT 1 FROM "restricted_usernames" WHERE "restricted_usernames"."username" = 'aded' AND "restricted_usernames"."inclusive" = 'f' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'[0m
+  [1m[35mRestrictedUsername Load (0.3ms)[0m  SELECT "restricted_usernames".* FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."username" = 'aded' LIMIT 1[0m
+Completed 200 OK in 233ms (Views: 14.0ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/username_availability?username=adedapo" for 127.0.0.1 at 2016-06-23 19:12:36 -0400
+  Processing by UsersController#username_availability as 
+  Parameters: {"username"=>"adedapo"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM "restricted_usernames" WHERE "restricted_usernames"."username" = 'adedapo' AND "restricted_usernames"."inclusive" = 'f' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'
+  [1m[36mRestrictedUsername Load (0.1ms)[0m  [1mSELECT "restricted_usernames".* FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+Completed 200 OK in 168ms (Views: 12.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-06-23 19:13:07 -0400
+  Processing by UsersController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "uid"=>"", "provider"=>"", "oauth_token"=>"[FILTERED]", "oauth_token_secret"=>"[FILTERED]", "social_signup"=>"", "user"=>{"location"=>"", "username"=>"adedapo", "name"=>"Adedapo Ajibade", "email"=>"aajibad1@gmail.com", "password"=>"[FILTERED]", "birthday(2i)"=>"7", "birthday(3i)"=>"7", "birthday(1i)"=>"1948"}, "signup"=>"Sign up"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mSQL (14.5ms)[0m  [1mSELECT 1 FROM "banned_users" WHERE "banned_users"."email" = 'aajibad1@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('aajibad1@gmail.com')) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."username") = LOWER('adedapo')) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM "restricted_usernames" WHERE "restricted_usernames"."username" = 'adedapo' AND "restricted_usernames"."inclusive" = 'f' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'[0m
+  [1m[35mRestrictedUsername Load (0.1ms)[0m  SELECT "restricted_usernames".* FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'
+  [1m[36mAREL (0.9ms)[0m  [1mINSERT INTO "users" ("email", "password", "salt", "name", "image", "birthday", "gender", "created_at", "updated_at", "location", "reset_token", "pw_reset_timestamp", "image_status", "is_deactivated", "delta", "username", "banner_image", "banner_image_id", "username_changed_at", "background_image_id") VALUES ('aajibad1@gmail.com', 'ffe76457605bd45528a30ab76c4c026ddc48dc4fbd6c902cce6a2f1ccc728a35', '24fad44f01e9d4fd819ee850b7cb5c7788766ecedacfe83602ecc4ed38edc593', 'Adedapo Ajibade', NULL, '1948-07-07', NULL, '2016-06-23 23:13:07.575343', '2016-06-23 23:13:07.575343', '', NULL, NULL, NULL, 'f', 't', 'adedapo', NULL, 1, NULL, 0)[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE "users" SET "location" = '', "username" = 'adedapo', "name" = 'Adedapo Ajibade', "email" = 'aajibad1@gmail.com', "password" = 'ffe76457605bd45528a30ab76c4c026ddc48dc4fbd6c902cce6a2f1ccc728a35', "birthday" = '1948-07-07', "salt" = '24fad44f01e9d4fd819ee850b7cb5c7788766ecedacfe83602ecc4ed38edc593', "created_at" = '2016-06-23 23:13:07.575343', "updated_at" = '2016-06-23 23:13:07.575343', "username_changed_at" = '2016-04-23 23:13:07.578491' WHERE "users"."id" = 1
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT 1 FROM "channels" WHERE "channels"."public_token" = '3LEIfLlbrorH1ybNgUQ0DNaz7uL7WMKU5glwyVa42KICPKqcqO' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT 1 FROM "channels" WHERE "channels"."user_id" = 1 AND (LOWER("channels"."title") = LOWER('Private Videos')) LIMIT 1
+  [1m[36mAREL (1.3ms)[0m  [1mINSERT INTO "channels" ("user_id", "title", "private", "featured", "created_at", "updated_at", "public_token", "recommended") VALUES (1, 'Private Videos', 't', 'f', '2016-06-23 23:13:07.611454', '2016-06-23 23:13:07.611454', '3LEIfLlbrorH1ybNgUQ0DNaz7uL7WMKU5glwyVa42KICPKqcqO', 'f')[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "channels" WHERE "channels"."public_token" = 'wFwa6OJePym32O6AbmqgDwWxLdRp9q8zj7YtxzHZxTqJCcbsy8' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "channels" WHERE "channels"."user_id" = 1 AND (LOWER("channels"."title") = LOWER('Public Videos')) LIMIT 1[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "channels" ("user_id", "title", "private", "featured", "created_at", "updated_at", "public_token", "recommended") VALUES (1, 'Public Videos', 'f', 'f', '2016-06-23 23:13:07.618623', '2016-06-23 23:13:07.618623', 'wFwa6OJePym32O6AbmqgDwWxLdRp9q8zj7YtxzHZxTqJCcbsy8', 'f')
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "channels" WHERE "channels"."user_id" = 1 AND (LOWER("channels"."title") = LOWER('Featured Videos')) LIMIT 1[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "channels" ("user_id", "title", "private", "featured", "created_at", "updated_at", "public_token", "recommended") VALUES (1, 'Featured Videos', 'f', 't', '2016-06-23 23:13:07.621110', '2016-06-23 23:13:07.621110', NULL, 'f')
+  [1m[36mAREL (0.9ms)[0m  [1mINSERT INTO "profiles" ("user_id", "interests", "favorite_music", "favorite_movies", "favorite_books", "favorite_people", "things_i_could_live_without", "one_thing_i_would_change_in_the_world", "quotes_to_live_by", "created_at", "updated_at", "favorite_foods", "bio", "website") VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2016-06-23 23:13:07.713538', '2016-06-23 23:13:07.713538', NULL, NULL, NULL)[0m
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "settings" ("created_at", "updated_at", "user_id", "hide_getting_started", "send_email_for_new_badges", "send_email_for_new_comments", "send_email_for_replies_to_a_prior_comment", "send_email_for_new_subscriber", "send_email_for_featured_video", "send_email_for_private_channel_request", "send_email_for_encoding_completion") VALUES ('2016-06-23 23:13:07.737009', '2016-06-23 23:13:07.737009', 1, 'f', 't', 't', 't', 't', 't', 't', 't')
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT 1 FROM "invitation_links" WHERE "invitation_links"."token" = 'a4ad0c7cc59b327d4e110d0b57bba03dc1e' LIMIT 1[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO "invitation_links" ("user_id", "email_asking_for_invite", "invitation_limit", "token", "created_at", "updated_at", "has_been_invited", "click_count") VALUES (1, NULL, 100, 'a4ad0c7cc59b327d4e110d0b57bba03dc1e', '2016-06-23 23:13:07.755606', '2016-06-23 23:13:07.755606', 't', 0)
+  [1m[36mAREL (0.1ms)[0m  [1mUPDATE "invitation_links" SET "user_id" = 1, "invitation_limit" = 100, "token" = 'a4ad0c7cc59b327d4e110d0b57bba03dc1e', "created_at" = '2016-06-23 23:13:07.755606', "updated_at" = '2016-06-23 23:13:07.755606' WHERE "invitation_links"."id" = 1[0m
+Completed 200 OK in 488ms (Views: 3.5ms | ActiveRecord: 22.5ms)
+
+
+Started GET "/adedapo/stream" for 127.0.0.1 at 2016-06-23 19:13:07 -0400
+  Processing by UsersController#subscriptions_stream as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1[0m
+  [1m[35mChannel Load (0.3ms)[0m  SELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC
+  [1m[36mChannel Load (27.1ms)[0m  [1mSELECT "channels".* FROM "channels" INNER JOIN "subscriptions" ON "channels".id = "subscriptions".channel_id WHERE (("subscriptions".subscriber_id = 1))[0m
+  [1m[35mBannerImage Load (18.7ms)[0m  SELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 1 AND "banner_images"."active" = 't' LIMIT 1
+Rendered users/_top_banner.html.haml (107.5ms)
+  [1m[36mProfile Load (1.6ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)
+Rendered users/_middle_user_banner.html.haml (79.7ms)
+  [1m[36mChannel Load (0.9ms)[0m  [1mSELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 1[0m
+  [1m[35mSQL (20.2ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (3) LIMIT 4
+Rendered users/_featured_videos.html.haml (295.6ms)
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT COUNT(*) FROM "user_events" WHERE "user_events"."seen_by_user" = 'f' AND (user_id = 1 AND error_during_render = 'f' AND event_type != 7)[0m
+  [1m[35mChannel Load (0.4ms)[0m  SELECT "channels".* FROM "channels" WHERE ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)[0m
+Rendered shared/_content_titles.html.haml (92.4ms)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (NULL)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (NULL)[0m
+Rendered shared/_infinite_scrolling.html.haml (2.3ms)
+Rendered shared/_header.html.haml (8.4ms)
+Rendered shared/_extras.html.haml (6.5ms)
+Rendered users/subscriptions_stream.html.haml within layouts/application (673.4ms)
+Completed 200 OK in 1070ms (Views: 650.2ms | ActiveRecord: 73.0ms)
+
+
+Started GET "/adedapo/invitations" for 127.0.0.1 at 2016-06-23 19:13:21 -0400
+  Processing by InvitationLinkController#index as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1[0m
+  [1m[35mChannel Load (0.3ms)[0m  SELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC
+  [1m[36mBannerImage Load (0.1ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 1 AND "banner_images"."active" = 't' LIMIT 1[0m
+Rendered users/_top_banner.html.haml (17.4ms)
+  [1m[35mProfile Load (1.6ms)[0m  SELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)[0m
+Rendered users/_middle_user_banner.html.haml (124.2ms)
+  [1m[35mChannel Load (0.4ms)[0m  SELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (3) LIMIT 4[0m
+Rendered users/_featured_videos.html.haml (6.8ms)
+  [1m[35mInvitationLink Load (0.4ms)[0m  SELECT "invitation_links".* FROM "invitation_links" WHERE ("invitation_links".user_id = 1) LIMIT 1
+Rendered shared/_scroll_to_content_wrapper.html.haml (3.1ms)
+Rendered shared/_header.html.haml (8.9ms)
+Rendered shared/_lower_navigation.haml (3.5ms)
+Rendered shared/_extras.html.haml (3.0ms)
+Rendered invitation_link/index.html.haml within layouts/application (274.8ms)
+Completed 200 OK in 658ms (Views: 291.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/explore" for 127.0.0.1 at 2016-06-23 19:13:25 -0400
+  Processing by VideosController#explore as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered users/_featured_videos.html.haml (3.2ms)
+Rendered videos/_explore_content_titles.html.haml (2.7ms)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "channels" ON "channels"."id" = "videos"."channel_id" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "channels"."private" = 'f' AND "video_graphs"."status" = 7
+Rendered shared/_header.html.haml (12.0ms)
+Rendered shared/_lower_navigation.haml (3.7ms)
+Rendered shared/_extras.html.haml (3.3ms)
+Rendered videos/explore.html.haml within layouts/application (69.7ms)
+Completed 200 OK in 365ms (Views: 74.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/adedapo/stream" for 127.0.0.1 at 2016-06-23 19:13:28 -0400
+  Processing by UsersController#subscriptions_stream as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (1.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+  [1m[36mChannel Load (0.3ms)[0m  [1mSELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC[0m
+  [1m[35mChannel Load (0.3ms)[0m  SELECT "channels".* FROM "channels" INNER JOIN "subscriptions" ON "channels".id = "subscriptions".channel_id WHERE (("subscriptions".subscriber_id = 1))
+  [1m[36mBannerImage Load (0.1ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 1 AND "banner_images"."active" = 't' LIMIT 1[0m
+Rendered users/_top_banner.html.haml (13.6ms)
+  [1m[35mProfile Load (2.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)[0m
+Rendered users/_middle_user_banner.html.haml (70.2ms)
+  [1m[35mChannel Load (0.4ms)[0m  SELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (3) LIMIT 4[0m
+Rendered users/_featured_videos.html.haml (7.1ms)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "user_events" WHERE "user_events"."seen_by_user" = 'f' AND (user_id = 1 AND error_during_render = 'f' AND event_type != 7)
+  [1m[36mChannel Load (0.5ms)[0m  [1mSELECT "channels".* FROM "channels" WHERE ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+Rendered shared/_content_titles.html.haml (83.1ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (NULL)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (NULL)
+Rendered shared/_infinite_scrolling.html.haml (2.4ms)
+Rendered shared/_header.html.haml (9.9ms)
+Rendered shared/_extras.html.haml (5.2ms)
+Rendered users/subscriptions_stream.html.haml within layouts/application (219.3ms)
+Completed 200 OK in 626ms (Views: 221.7ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/adedapo/edit_banner" for 127.0.0.1 at 2016-06-23 19:13:40 -0400
+  Processing by UsersController#edit_banner as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+  [1m[36mBannerImage Load (0.2ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 1 AND "banner_images"."active" = 't' LIMIT 1[0m
+Rendered users/_top_banner.html.haml (7.1ms)
+  [1m[35mProfile Load (1.5ms)[0m  SELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)[0m
+Rendered users/_middle_user_banner.html.haml (265.5ms)
+  [1m[35mBannerImage Load (0.6ms)[0m  SELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."active" = 't'
+Rendered shared/_scroll_to_content_wrapper.html.haml (2.4ms)
+Rendered shared/_header.html.haml (8.6ms)
+Rendered shared/_lower_navigation.haml (3.6ms)
+Rendered shared/_extras.html.haml (3.0ms)
+Rendered users/edit_banner.html.haml within layouts/application (338.4ms)
+Completed 200 OK in 607ms (Views: 364.0ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/adedapo/edit_banner" for 127.0.0.1 at 2016-06-23 19:15:30 -0400
+  Processing by UsersController#edit_banner as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[36mUser Load (2.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+  [1m[36mBannerImage Load (20.9ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 1 AND "banner_images"."active" = 't' LIMIT 1[0m
+Rendered users/_top_banner.html.haml (34.9ms)
+  [1m[35mProfile Load (2.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1
+  [1m[36mSQL (14.4ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)[0m
+  [1m[35mSQL (17.7ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)[0m
+Rendered users/_middle_user_banner.html.haml (411.6ms)
+  [1m[35mBannerImage Load (0.8ms)[0m  SELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."active" = 't'
+Rendered shared/_scroll_to_content_wrapper.html.haml (3.0ms)
+Rendered shared/_header.html.haml (8.4ms)
+Rendered shared/_lower_navigation.haml (3.6ms)
+Rendered shared/_extras.html.haml (3.1ms)
+Rendered users/edit_banner.html.haml within layouts/application (581.6ms)
+Completed 200 OK in 1047ms (Views: 607.6ms | ActiveRecord: 60.7ms)
+
+
+Started PUT "/adedapo/update_banner_from_gallery?banner_image_id=5" for 127.0.0.1 at 2016-06-23 19:15:52 -0400
+  Processing by UsersController#update_banner_from_gallery as JS
+  Parameters: {"banner_image_id"=>"5", "username"=>"adedapo"}
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+  [1m[36mSQL (16.6ms)[0m  [1mSELECT 1 FROM "banner_images" WHERE "banner_images"."id" = 5 AND "banner_images"."active" = 't' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT 1 FROM "banned_users" WHERE "banned_users"."email" = 'aajibad1@gmail.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('aajibad1@gmail.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."username") = LOWER('adedapo')) AND ("users".id <> 1) LIMIT 1
+  [1m[36mSQL (1.7ms)[0m  [1mSELECT 1 FROM "restricted_usernames" WHERE "restricted_usernames"."username" = 'adedapo' AND "restricted_usernames"."inclusive" = 'f' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'
+  [1m[36mRestrictedUsername Load (0.2ms)[0m  [1mSELECT "restricted_usernames".* FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "users" SET "banner_image_id" = 5, "updated_at" = '2016-06-23 23:15:53.374143' WHERE "users"."id" = 1
+  [1m[36mBannerImage Load (0.1ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 5 AND "banner_images"."active" = 't' LIMIT 1[0m
+Completed 202 Accepted in 402ms (Views: 12.1ms | ActiveRecord: 22.3ms)
+
+
+Started PUT "/adedapo/update_banner_from_gallery?banner_image_id=26" for 127.0.0.1 at 2016-06-23 19:15:59 -0400
+  Processing by UsersController#update_banner_from_gallery as JS
+  Parameters: {"banner_image_id"=>"26", "username"=>"adedapo"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "banner_images" WHERE "banner_images"."id" = 26 AND "banner_images"."active" = 't' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "banned_users" WHERE "banned_users"."email" = 'aajibad1@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('aajibad1@gmail.com')) AND ("users".id <> 1) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."username") = LOWER('adedapo')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT 1 FROM "restricted_usernames" WHERE "restricted_usernames"."username" = 'adedapo' AND "restricted_usernames"."inclusive" = 'f' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'[0m
+  [1m[35mRestrictedUsername Load (0.2ms)[0m  SELECT "restricted_usernames".* FROM "restricted_usernames" WHERE "restricted_usernames"."inclusive" = 't'
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "users" SET "banner_image_id" = 26, "updated_at" = '2016-06-23 23:15:59.654272' WHERE "users"."id" = 1[0m
+  [1m[35mBannerImage Load (0.2ms)[0m  SELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 26 AND "banner_images"."active" = 't' LIMIT 1
+Completed 202 Accepted in 310ms (Views: 16.3ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/adedapo" for 127.0.0.1 at 2016-06-23 19:16:10 -0400
+  Processing by UsersController#show as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+  [1m[36mChannel Load (0.3ms)[0m  [1mSELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC[0m
+  [1m[35mChannel Load (0.3ms)[0m  SELECT "channels".* FROM "channels" WHERE ("channels".user_id = 1) ORDER BY updated_at DESC
+  [1m[36mBannerImage Load (0.2ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 26 AND "banner_images"."active" = 't' LIMIT 1[0m
+Rendered users/_top_banner.html.haml (19.1ms)
+  [1m[35mProfile Load (1.6ms)[0m  SELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1
+  [1m[36mSQL (16.5ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)[0m
+Rendered users/_middle_user_banner.html.haml (197.4ms)
+  [1m[35mChannel Load (0.4ms)[0m  SELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (3) LIMIT 4[0m
+Rendered users/_featured_videos.html.haml (8.2ms)
+  [1m[35mSQL (0.4ms)[0m  SELECT COUNT(*) FROM "user_events" WHERE "user_events"."seen_by_user" = 'f' AND (user_id = 1 AND error_during_render = 'f' AND event_type != 7)
+  [1m[36mChannel Load (0.4ms)[0m  [1mSELECT "channels".* FROM "channels" WHERE ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+Rendered shared/_content_titles.html.haml (24.7ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" IN (3, 4, 5, 6, 7) AND "videos"."channel_id" IN (3, 2, 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" IN (3, 4, 5, 6, 7) AND "videos"."channel_id" IN (3, 2, 1)
+Rendered shared/_infinite_scrolling.html.haml (2.3ms)
+Rendered shared/_header.html.haml (13.7ms)
+Rendered shared/_extras.html.haml (3.4ms)
+Rendered users/show.html.haml within layouts/application (330.0ms)
+Completed 200 OK in 763ms (Views: 324.4ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/adedapo/account" for 127.0.0.1 at 2016-06-23 19:16:19 -0400
+  Processing by UsersController#edit as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1
+  [1m[36mSocialNetwork Load (18.9ms)[0m  [1mSELECT "social_networks".* FROM "social_networks" WHERE "social_networks"."user_id" = 1 AND "social_networks"."provider" = 'facebook' LIMIT 1[0m
+  [1m[35mSocialNetwork Load (0.2ms)[0m  SELECT "social_networks".* FROM "social_networks" WHERE "social_networks"."user_id" = 1 AND "social_networks"."provider" = 'twitter' LIMIT 1
+  [1m[36mBannerImage Load (0.1ms)[0m  [1mSELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 26 AND "banner_images"."active" = 't' LIMIT 1[0m
+Rendered users/_top_banner.html.haml (71.9ms)
+  [1m[35mProfile Load (2.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1
+  [1m[36mSQL (11.5ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)[0m
+Rendered users/_middle_user_banner.html.haml (304.8ms)
+Rendered shared/_select_birthday.html.haml (9.4ms)
+  [1m[35mSetting Load (0.8ms)[0m  SELECT "settings".* FROM "settings" WHERE ("settings".user_id = 1) LIMIT 1
+  [1m[36mSQL (21.4ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "blockings" ON "users".id = "blockings".blocked_user WHERE (("blockings".requesting_user = 1))[0m
+Rendered shared/_scroll_to_content_wrapper.html.haml (2.5ms)
+Rendered shared/_header.html.haml (9.3ms)
+Rendered shared/_lower_navigation.haml (3.7ms)
+Rendered shared/_extras.html.haml (5.9ms)
+Rendered users/edit.html.haml within layouts/application (645.9ms)
+Completed 200 OK in 974ms (Views: 636.4ms | ActiveRecord: 57.6ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-06-23 19:16:47 -0400
+
+
+Started GET "/adedapo/stream" for 127.0.0.1 at 2016-06-23 19:17:06 -0400
+  Processing by UsersController#subscriptions_stream as HTML
+  Parameters: {"username"=>"adedapo"}
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'adedapo' LIMIT 1[0m
+  [1m[35mChannel Load (30.0ms)[0m  SELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC
+  [1m[36mChannel Load (0.5ms)[0m  [1mSELECT "channels".* FROM "channels" INNER JOIN "subscriptions" ON "channels".id = "subscriptions".channel_id WHERE (("subscriptions".subscriber_id = 1))[0m
+  [1m[35mBannerImage Load (17.8ms)[0m  SELECT "banner_images".* FROM "banner_images" WHERE "banner_images"."id" = 26 AND "banner_images"."active" = 't' LIMIT 1
+Rendered users/_top_banner.html.haml (56.7ms)
+  [1m[36mProfile Load (2.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE ("profiles".user_id = 1) LIMIT 1[0m
+  [1m[35mSQL (3.2ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND ("videos".user_id = 1)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "badges" INNER JOIN "videos" ON "badges".video_id = "videos".id WHERE (("videos".user_id = 1))
+  [1m[36mUser Load (19.1ms)[0m  [1mSELECT DISTINCT users.* FROM "users" INNER JOIN "subscriptions" ON "users".id = "subscriptions".subscriber_id WHERE (("subscriptions".publisher_id = 1))[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "subscriptions" WHERE ("subscriptions".subscriber_id = 1)
+Rendered users/_middle_user_banner.html.haml (189.3ms)
+  [1m[36mChannel Load (0.6ms)[0m  [1mSELECT "channels".* FROM "channels" WHERE "channels"."featured" = 't' AND ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 1[0m
+  [1m[35mSQL (13.2ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (3) LIMIT 4
+Rendered users/_featured_videos.html.haml (25.0ms)
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT COUNT(*) FROM "user_events" WHERE "user_events"."seen_by_user" = 'f' AND (user_id = 1 AND error_during_render = 'f' AND event_type != 7)[0m
+  [1m[35mChannel Load (0.6ms)[0m  SELECT "channels".* FROM "channels" WHERE ("channels".user_id = 1) ORDER BY updated_at DESC LIMIT 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "channels" WHERE ("channels".user_id = 1)[0m
+Rendered shared/_content_titles.html.haml (40.2ms)
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (NULL)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "videos" INNER JOIN "video_graphs" ON "video_graphs"."id" = "videos"."video_graph_id" WHERE "video_graphs"."status" = 7 AND "videos"."channel_id" IN (NULL)[0m
+Rendered shared/_infinite_scrolling.html.haml (4.1ms)
+Rendered shared/_header.html.haml (9.8ms)
+Rendered shared/_extras.html.haml (3.4ms)
+Rendered users/subscriptions_stream.html.haml within layouts/application (449.0ms)
+Completed 200 OK in 1132ms (Views: 472.2ms | ActiveRecord: 91.8ms)
