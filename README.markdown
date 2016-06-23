@@ -1,14 +1,14 @@
-## Brevidy 
+## Adamite 
 
 Support this project via Gratipay <a href="https://gratipay.com/iwasrobbed/"><img src="http://img.shields.io/gratipay/iwasrobbed.svg"></a>
 
-Brevidy was a video social network that I built with Ruby on Rails 3.0.7, HAML, Bootstrap, and jQuery that was released into beta testing February 2012.  Brevidy closed down shortly after due to the high costs of server hosting in addition to all of the add-on services such as video transcoding, email, error exception handling, database storage, etc.  Unfortunately, it's very difficult to get investor interest without knowing a friend of a friend, so I wasn't able to afford the rising costs that accompanied the user growth.
+Adamite was a video social network that I built with Ruby on Rails 3.0.7, HAML, Bootstrap, and jQuery that was released into beta testing February 2012.  Adamite closed down shortly after due to the high costs of server hosting in addition to all of the add-on services such as video transcoding, email, error exception handling, database storage, etc.  Unfortunately, it's very difficult to get investor interest without knowing a friend of a friend, so I wasn't able to afford the rising costs that accompanied the user growth.
 
-The idea of Brevidy was to create a place that people could upload their own videos or cross-post YouTube/Vimeo videos into public or private channels that other people could subscribe to.  When you subscribe to other people's channels, all videos from those channels show up in an infinitely-scrolling stream and you can easily re-share, comment, or badge a video.  It was a beautiful website, but video is a difficult and expensive medium so unfortunately it didn't work out.
+The idea of Adamite was to create a place that people could upload their own videos or cross-post YouTube/Vimeo videos into public or private channels that other people could subscribe to.  When you subscribe to other people's channels, all videos from those channels show up in an infinitely-scrolling stream and you can easily re-share, comment, or badge a video.  It was a beautiful website, but video is a difficult and expensive medium so unfortunately it didn't work out.
 
-## Sites built off of Brevidy
+## Sites built off of Adamite
 
-Have a site you wanna share that is built off of the Brevidy code?  Tweet me [https://twitter.com/iwasrobbed](https://twitter.com/iwasrobbed)
+Have a site you wanna share that is built off of the Adamite code?  Tweet me [https://twitter.com/iwasrobbed](https://twitter.com/iwasrobbed)
 
 
 ## Screenshots
@@ -22,27 +22,27 @@ Have a site you wanna share that is built off of the Brevidy code?  Tweet me [ht
 <a style="padding:10px" href="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/2f29bec475fd70582c0edfd8ef0eb810-original.png"><img src="https://s3.amazonaws.com/screenshots.angel.co/bc/23502/2f29bec475fd70582c0edfd8ef0eb810-original.png" alt="Screenshot" style="width: 200px;"/></a>
 
 ## Open Sourcing
-I learned a lot about web programming by creating Brevidy and instead of it sitting and collecting dust, I wanted to open source it for others to learn from and use bits and pieces in their own projects.  If you want to create your own video social network using Brevidy as a starting point, be my guest, but **do not** use the Brevidy name, logo, branding, or badges in your website.  Just make sure you give me (Rob Phillips) credit in the About section and I welcome any and all PayPal donations
+I learned a lot about web programming by creating Adamite and instead of it sitting and collecting dust, I wanted to open source it for others to learn from and use bits and pieces in their own projects.  If you want to create your own video social network using Adamite as a starting point, be my guest, but **do not** use the Adamite name, logo, branding, or badges in your website.  Just make sure you give me (Rob Phillips) credit in the About section and I welcome any and all PayPal donations
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8QD95M6JCP73C"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"/></a>
 
-The source code can be used in personal and commercial products for free as long as you give me attribution.  Please also remember that Brevidy was only possible by using other open source projects, so be sure to give them any credit that is necessary according to their respective licenses.
+The source code can be used in personal and commercial products for free as long as you give me attribution.  Please also remember that Adamite was only possible by using other open source projects, so be sure to give them any credit that is necessary according to their respective licenses.
 
 ## Collaboration
-I would love to see Brevidy come back to life one day, even if it's under a different name and owner.  I welcome all collaborators on this project so please feel free to fork and issue pull requests to improve upon Brevidy.  Much of it was built while I was teaching myself Ruby / Ruby on Rails so I'm sure there is a lot that could be easily improved upon.  If you show enough interest, I would gladly accept people to start working as full-time collaborators and grant you read-write access to the repo so you can commit directly.
+I would love to see Adamite come back to life one day, even if it's under a different name and owner.  I welcome all collaborators on this project so please feel free to fork and issue pull requests to improve upon Adamite.  Much of it was built while I was teaching myself Ruby / Ruby on Rails so I'm sure there is a lot that could be easily improved upon.  If you show enough interest, I would gladly accept people to start working as full-time collaborators and grant you read-write access to the repo so you can commit directly.
 
 ## 3rd Party Services
-Brevidy uses the following 3rd party services:
+Adamite uses the following 3rd party services:
 
   * Zencoder - Very quickly handles all video transcoding from any number of formats for a fair price.  The founder is a great guy and very helpful
-  * Amazon S3 & Cloudfront - Handles all image and video storage in addition to high-speed CDN streaming of videos that are hosted on Brevidy.  Amazon is incredible and cheap
+  * Amazon S3 & Cloudfront - Handles all image and video storage in addition to high-speed CDN streaming of videos that are hosted on Adamite.  Amazon is incredible and cheap
   * SendGrid - Their customer service was pretty terrible, but it was the only option I had at the time for sending all of the emails
   * Flying Sphinx - Great search tool for Thinking Sphinx.  The founder is really quick to help and a nice guy
   * HireFire - Manages hiring and firing worker processes on Heroku.  I'm not sure why Heroku never built this automation into their system from the beginning, but necessity is the mother of all invention (and capitalism) so kudos to the creator 
 
 ## Getting Started Locally
 
-  1. [Download and unzip these files](https://s3.amazonaws.com/iwasrobbed/open+source/BrevidyBucketSetup.zip) into the root directory of your Amazon S3 bucket (you'll need to modify the `crossdomain.xml` and `clientaccesspolicy.xml` files to replace the `domain uri` value with your domain name to ensure it's secure)
+  1. [Download and unzip these files](https://s3.amazonaws.com/iwasrobbed/open+source/AdamiteBucketSetup.zip) into the root directory of your Amazon S3 bucket (you'll need to modify the `crossdomain.xml` and `clientaccesspolicy.xml` files to replace the `domain uri` value with your domain name to ensure it's secure)
   2. Clone this repository to a local directory on your computer
   3. Create a new ruby set using something like RVM and run `bundle install` in the local repo directory
   4. Run `rake db:reset` to reset and seed the database with default tables and some necessary data
@@ -70,7 +70,7 @@ config/initializers/omniauth.rb
 lib/tasks/deploy.rake
 ```
 
-Note: Brevidy's search is built on top of Flying Sphinx, which only runs on Heroku.  So if you type something into the search box and yell "Rob, this is broken!!!" then you need to understand that search doesn't work locally, it only works on Heroku after you've set up Flying Sphinx.
+Note: Adamite's search is built on top of Flying Sphinx, which only runs on Heroku.  So if you type something into the search box and yell "Rob, this is broken!!!" then you need to understand that search doesn't work locally, it only works on Heroku after you've set up Flying Sphinx.
 
 ## Getting Started on Heroku
   * Complete the tasks in the **Getting Started Locally** section to ensure the app builds and runs locally first
@@ -91,7 +91,7 @@ zencoder:1k
 airbrake:developer
 ```
 
-When Brevidy was running in production, these were some of the add-ons that I had installed (not sure if these add-on names have changed or not)
+When Adamite was running in production, these were some of the add-ons that I had installed (not sure if these add-on names have changed or not)
 
 ```ruby
 cron:hourly (This doesn't exist anymore, you'll have to convert it over to Heroku's Scheduler)
@@ -110,26 +110,26 @@ zencoder:1k
 ```
 
   * Push the code up to your Heroku server that you just created using `git push -f git@heroku.com:your_app_name_here.git master:master`
-  * After pushing the production codebase, run `heroku run rake db:schema:load --app yourappname`, then `heroku run rake db:seed --app yourappname` to generate a seeded database with the data and tables necessary for running Brevidy
+  * After pushing the production codebase, run `heroku run rake db:schema:load --app yourappname`, then `heroku run rake db:seed --app yourappname` to generate a seeded database with the data and tables necessary for running Adamite
   * You'll need to follow the [documentation for Flying Sphinx](http://flying-sphinx.com/docs) to configure it for search (and you'll get some errors in the Heroku logs if you try to create new users before configuring it)
 
 ## SASS & Bootstrap
-Brevidy uses the Bootstrap framework for much of it's CSS foundation.  To compile the CSS (which is built using SASS files) into the final versions, run `rake css:compress` and then the output file will be in the `public/stylesheets` directory.  You'll have to update the layouts to use the updated CSS files.  
+Adamite uses the Bootstrap framework for much of it's CSS foundation.  To compile the CSS (which is built using SASS files) into the final versions, run `rake css:compress` and then the output file will be in the `public/stylesheets` directory.  You'll have to update the layouts to use the updated CSS files.  
 
 Note: The source files for all SASS and Javascript are in the `assets` directory
 
 ## Templating Engine
-Brevidy uses the [HAML](http://haml-lang.com) templating engine for generating all views.  All tabs in your text editor should be set to "Soft Tabs" with **2 spaces**  
+Adamite uses the [HAML](http://haml-lang.com) templating engine for generating all views.  All tabs in your text editor should be set to "Soft Tabs" with **2 spaces**  
 
 To convert HTML (or ERB) to HAML: [http://html2haml.heroku.com](http://html2haml.heroku.com)  
 **Note:** You should *always* double check the output code for syntax errors or inefficiencies.
 
 ## Testing Configuration
-By default, Brevidy uses the [RSpec](http://rspec.info/rails) tool for unit testing with factories for test data.  I was in a rush during the last iteration of Brevidy, so I didn't have time to update any of the controller tests.  I'll leave it as an exercise for you and welcome any pull requests with test corrections.
+By default, Adamite uses the [RSpec](http://rspec.info/rails) tool for unit testing with factories for test data.  I was in a rush during the last iteration of Adamite, so I didn't have time to update any of the controller tests.  I'll leave it as an exercise for you and welcome any pull requests with test corrections.
 
 All spec and factory files should go in the `/spec` folder.
 
-Instead of fixtures, Brevidy uses [Factory Girl](https://github.com/thoughtbot/factory_girl_rails) for creating the following factories of default data and also [Faker](http://faker.rubyforge.org) for generating pseudo data for those objects:
+Instead of fixtures, Adamite uses [Factory Girl](https://github.com/thoughtbot/factory_girl_rails) for creating the following factories of default data and also [Faker](http://faker.rubyforge.org) for generating pseudo data for those objects:
 
   * Users
   * Video Posts
@@ -141,7 +141,7 @@ Instead of fixtures, Brevidy uses [Factory Girl](https://github.com/thoughtbot/f
 **Note:** If you do not currently have a test database setup, when you goto run `rspec spec` or `autotest` to run your test suite, it will return failures stating that it cannot find the object tables in the database.  To fix this, make sure you clone the current database for test by running `rake db:test:clone` and all tests should pass after that.
 
 ## Doing Work in the Background
-Brevidy uses the [DelayedJob](https://github.com/collectiveidea/delayed_job) library for performing long running (background) tasks or tasks that are not time sensitive such as the following:
+Adamite uses the [DelayedJob](https://github.com/collectiveidea/delayed_job) library for performing long running (background) tasks or tasks that are not time sensitive such as the following:
 
   * Deleting comments, video responses, users
   * Creating thumbnails for videos and user images
